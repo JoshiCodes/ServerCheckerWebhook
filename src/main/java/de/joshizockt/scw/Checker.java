@@ -66,7 +66,7 @@ public class Checker {
             public void run() {
                 ping();
             }
-        }, 0, configuration.pingInterval() * 1000L);
+        }, 1000, configuration.pingInterval() * 1000L);
     }
 
     public void stop() {

@@ -33,6 +33,8 @@ public class CheckerWebhook {
             checkerThreads.put(config.name(), checker);
         }
 
+        System.out.println("Finished Loading!");
+
     }
 
     private static String getArgument(String target, String[] args) {
